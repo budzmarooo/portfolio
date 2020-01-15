@@ -1,0 +1,27 @@
+@include media-md {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+}
+
+@include media-lg {
+  .contact {
+    .contact-section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 136;
+      text-align: center;
+    }
+  }
+}
+
+@include media-xl {
+  body {
+    font-size: 24px;
+
+    .cards {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
