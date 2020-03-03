@@ -13,10 +13,14 @@
   p {
     margin-top: 0.36rem;
     opacity: 0.78;
+    line-height: 2rem;
   }
 
   h1 {
     margin-top: 1rem;
+    .wave {
+      font-size: 2rem;
+    }
   }
 
   .btn {

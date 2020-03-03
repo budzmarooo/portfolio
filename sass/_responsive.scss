@@ -3,6 +3,20 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
   }
+
+  .home-section,
+  .about-section {
+    p {
+      width: 68%;
+    }
+  }
+
+  .freelance {
+    .list-container {
+      margin-top: 2rem;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
 }
 
 @include media-lg {
@@ -14,6 +28,16 @@
       text-align: center;
     }
   }
+  .home-section,
+  .about-section {
+    h1 {
+      font-size: 39px;
+    }
+    p {
+      width: 68%;
+      font-size: 1.3rem;
+    }
+  }
 }
 
 @include media-xl {
@@ -22,6 +46,17 @@
 
     .cards {
       grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .home-section,
+  .about-section {
+    h1 {
+      font-size: 39px;
+    }
+    p {
+      width: 68%;
+      font-size: 1.3rem;
     }
   }
 }

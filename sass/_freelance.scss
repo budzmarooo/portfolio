@@ -4,4 +4,30 @@
   p {
     margin: 1rem 0;
   }
+
+  h3 {
+    span::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 10px;
+      height: 2px;
+      background-color: red;
+    }
+  }
+
+  .list-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap: 2rem;
+
+    ul {
+      list-style-type: none;
+    }
+
+    div {
+      margin-bottom: 12px;
+    }
+  }
 }
